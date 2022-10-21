@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D8DDFB72903360C00043CA4 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D8DDFB52903360C00043CA4 /* DataModel.xcdatamodeld */; };
 		9DBC16282901B4380068763D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBC16272901B4380068763D /* AppDelegate.swift */; };
 		9DBC162A2901B4380068763D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBC16292901B4380068763D /* SceneDelegate.swift */; };
 		9DBC162F2901B4380068763D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DBC162D2901B4380068763D /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D8DDFB62903360C00043CA4 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		9DBC16242901B4380068763D /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBC16272901B4380068763D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DBC16292901B4380068763D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D8DDFB12903086000043CA4 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D8DDFB52903360C00043CA4 /* DataModel.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		9D8DDFB22903087100043CA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC163B2901B50C0068763D /* TodoListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9D8DDFB32903087D00043CA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC162D2901B4380068763D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D8DDFB42903089500043CA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DBC16302901B4390068763D /* Assets.xcassets */,
+				9DBC16322901B4390068763D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9DBC161B2901B4380068763D = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +93,10 @@
 			children = (
 				9DBC16272901B4380068763D /* AppDelegate.swift */,
 				9DBC16292901B4380068763D /* SceneDelegate.swift */,
-				9DBC162D2901B4380068763D /* Main.storyboard */,
-				9DBC163B2901B50C0068763D /* TodoListViewController.swift */,
-				9DBC16302901B4390068763D /* Assets.xcassets */,
-				9DBC16322901B4390068763D /* LaunchScreen.storyboard */,
+				9D8DDFB32903087D00043CA4 /* Views */,
+				9D8DDFB22903087100043CA4 /* Controllers */,
+				9D8DDFB12903086000043CA4 /* Data Model */,
+				9D8DDFB42903089500043CA4 /* Supporting Files */,
 				9DBC16352901B4390068763D /* Info.plist */,
 			);
 			path = Todoey;
@@ -139,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DBC163C2901B50C0068763D /* TodoListViewController.swift in Sources */,
+				9D8DDFB72903360C00043CA4 /* DataModel.xcdatamodeld in Sources */,
 				9DBC16282901B4380068763D /* AppDelegate.swift in Sources */,
 				9DBC162A2901B4380068763D /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +394,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D8DDFB52903360C00043CA4 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D8DDFB62903360C00043CA4 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 9D8DDFB62903360C00043CA4 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9DBC161C2901B4380068763D /* Project object */;
 }
