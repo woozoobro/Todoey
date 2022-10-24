@@ -26,6 +26,7 @@ class CategoryViewController: SwipeTableViewController {
         guard let navBar = navigationController?.navigationBar else { fatalError("Navigation Controller does not exist.") }
         navBar.backgroundColor = UIColor(hexString: "1D9BF6")
         navBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: ContrastColorOf(navBar.backgroundColor!, returnFlat: true)]
+        navBar.topItem?.rightBarButtonItem?.tintColor = .white
     }
 
     // MARK: - Table view data source
